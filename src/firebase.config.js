@@ -14,6 +14,8 @@ const firebaseConfig = {
   appId: "1:575291906805:web:c270370f607b5d566743bc"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+// Creates and initializes a FirebaseApp instance
+const firebaseApp = initializeApp(firebaseConfig);
+
+//returns the existing Firestore instance that is associated with the provided FirebaseApp. 
 export const db = getFirestore();

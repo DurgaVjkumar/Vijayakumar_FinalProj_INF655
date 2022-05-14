@@ -42,3 +42,9 @@
   .Nav li:focus a {
     cursor: pointer;
   }
+
+  .navName-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
